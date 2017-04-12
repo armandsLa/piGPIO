@@ -3,7 +3,7 @@ import Glibc
 // Get the Pin where the LED will be attached to
 let gpios = SwiftyGPIO.GPIOs(for: .RaspberryPi3)
 guard let ledGPIO = gpios[.P4] else {
-    fatalError(“It has not been possible to initialised the LED GPIO pin”)
+    fatalError("It has not been possible to initialised the LED GPIO pin")
 }
 
 // Set the GPIO to output
