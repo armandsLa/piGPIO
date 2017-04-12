@@ -1,4 +1,5 @@
 import Glibc
+import SwiftyGPIO
 
 // Get the Pin where the LED will be attached to
 let gpios = SwiftyGPIO.GPIOs(for: .RaspberryPi3)
